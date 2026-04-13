@@ -1,0 +1,13 @@
+name: research_sandbox
+version: 1.0.0
+description: Research sandbox — permissive but fully logged
+extends: research
+
+thresholds:
+  execute:
+    block: 0.75
+    hold: 0.55
+
+features:
+  require_stated_intent: false
+  multi_output_enabled: false
